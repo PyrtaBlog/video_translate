@@ -1,9 +1,9 @@
 import ffmpeg
 import os
 
-def audio_extract(input_video):
+def audio_extract(input_video, output_audio):
     try:
-        output_audio = "./media/temp/output_audio.aac"
+        
         if (os.path.exists(output_audio)):
             extract_a(input_video, output_audio)
         else:
