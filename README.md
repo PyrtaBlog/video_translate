@@ -19,7 +19,7 @@
 
 1. Клонируйте репозиторий:
 
-```bash
+````bash
 git clone https://github.com/yourusername/video-translation-tool.git
 cd video-translation-tool
 
@@ -88,4 +88,4 @@ video_path	Путь к видеофайлу для перевода
 Поддержка мультиязычных видео
 
 Автоматическое определение исходного языка
-```
+````
